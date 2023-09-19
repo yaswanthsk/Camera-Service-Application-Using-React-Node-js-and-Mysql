@@ -171,7 +171,7 @@ function HandleLogout(){
       </nav>
       <div  className="d-flex justify-content-center align-items-center updatebookingform">
         <form className="updateBookingForm" onSubmit={handleSubmit}>
-          <h2>Enter the Product Details</h2>
+          <h3>Enter the Product Details</h3>
           <div className="mb-3 d-flex center">
             <input
               type="text"
