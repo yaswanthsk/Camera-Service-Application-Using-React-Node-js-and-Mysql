@@ -1,0 +1,42 @@
+.SignupPage{
+    background-color: #D3C0C8;
+     text-align: center;
+    height: 100vh;
+  }
+
+.signupHead{
+    background-color: #400000;       
+  }
+  
+.signupHead strong {
+    color: white;
+    font-size: 2rem;
+  }
+  
+.signupForm{
+  display: flex;
+  margin: 50px 200px;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  width: 20%;
+  border-radius: 10%;
+  height: 90vh;
+  margin-top: 50px;
+}
+#username{
+    width: 100%;
+}
+#mobileNumber{
+    width: 100%;
+}
+#confirmPassword{
+    width: 100%;
+}
+#username{
+    width: 100%;
+}
+#submitButton {
+  width: 200%;
+  padding: 5px;
+}

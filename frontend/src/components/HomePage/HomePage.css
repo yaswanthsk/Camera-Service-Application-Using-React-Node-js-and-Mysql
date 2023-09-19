@@ -1,0 +1,129 @@
+.body{
+    background-color: #E5E5E5;
+}
+.container-fluid {
+    background-color: #6050BF;
+}
+
+.nav-link {
+  transition: all 0.1s ease;
+}
+
+.nav-link:hover {
+  transform: scale(1.1);
+}
+
+.logout {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.logout:hover {
+  transform: scale(1.2);
+}
+
+.navbar-brand{
+    font-size: 40px;
+    color: white;
+}
+#homeButton{
+    font-size: 20px;
+    color: white;
+
+}
+#dashBoardButton{
+    font-size: 20px;
+    color: white;
+
+}
+#myBookingButton{
+    font-size: 20px;
+    color: white;
+}
+#logout{
+    font-size: 20px;
+    color: white;
+
+}
+.center-form{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0;
+  margin: 10px 300px;
+  padding: 10px;
+}
+.form-control{
+    border-radius: 0;
+    margin-right: 10px;
+}
+
+#searchButton{
+  background-color: #6050BF;
+  border-radius: 0;
+  margin-left: 10px; /* Add margin to separate search bar and button */
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    grid-template-rows: repeat(2, 1fr); /* 2 rows */
+    gap: 20px;
+    
+  }
+  
+  .grid-cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    overflow: hidden;
+  }
+  
+  .image-container {
+    border-radius: 10px;
+    background-color: #E5E5E5;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .image {
+    width: 300px;
+    height: 250px;
+    border-radius: 50px;
+  }
+  
+  .details {
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .place, .time {
+    font-size: 16px;
+    margin: 5px 0;
+    text-align: left;
+  }
+  
+  .linkStyle {
+    text-decoration: none;
+  }
+
+.linkStyle:visited,
+.linkStyle:hover,
+.linkStyle:active {
+  text-decoration: none;
+  color: inherit;
+}

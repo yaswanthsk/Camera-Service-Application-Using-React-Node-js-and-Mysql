@@ -1,0 +1,41 @@
+.loginHead{
+  background-color: #400000;       
+}
+
+.loginHead strong {
+  color: white;
+  font-size: 2rem;
+}
+
+#loginButton {
+  background-color: #3F5F73;
+}
+
+#email {
+  width: 100%;
+  
+}
+
+.loginForm{
+  display: center;
+  margin: 1px 10px;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  width: 50%;
+  border-radius: 10%;
+  height: 100vh;
+  margin-top: 100px;
+}
+#password {
+  width: 100%;
+}
+#loginButton {
+  width: auto;
+}
+#singupLink {
+  width: auto;
+}
+.loginPage{
+  background-color: #D3C0C8;
+}

@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: grey;
+  font-family: Trebuchet MS;
+}
+
+.my-booking-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding-top: 1rem;
+  background-color: grey;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+table {
+  max-width: 1300px;
+  
+}
+
+thead,
+td {
+  padding: 4px 8px;
+  text-align: left;
+  border-bottom: 1px solid #6050bf;
+}
+
+thead {
+  background-color: #6050bf;
+  color: white;
+  text-align: left;
+
+}
+
+tbody {
+  background-color: #b2c0c9;
+}
+
+button {
+  background-color: #b2c0c9;
+  color: black;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  
+}
+
+.icon-container {
+  display: flex;
+}
+
+.icon-container button {
+  margin-right: 1px;
+}
+
+
+
+
+.navbar {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+  margin-left: 20px;
+  
+}

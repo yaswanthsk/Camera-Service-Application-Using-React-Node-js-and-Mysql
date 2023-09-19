@@ -1,0 +1,150 @@
+.body{
+    background-color: #E5E5E5;
+}
+.container-fluid {
+    background-color: #6050BF;
+}
+.navbar-brand{
+    font-size: 40px;
+    color: white;
+}
+#adminAddCenter{
+    font-size: 20px;
+    color: white;
+
+}
+#adminCenterProfile{
+    font-size: 20px;
+    color: white;
+
+}
+
+#logout{
+    font-size: 20px;
+    color: white;
+
+}
+.center-form{
+    justify-content: center;
+    display: flex;
+    border-radius: 0;
+    margin: 30px 300px;
+    padding: 30px;   
+}
+.form-control{
+    border-radius: 0;
+    justify-content: center;
+    width: 100%; /* update width property */
+    max-width: 400px; /* set a maximum width */
+}
+
+#searchButton{
+    background-color: #6050BF;
+    border-radius: 0;
+}
+/*css for add service center*/
+.addpage{
+    background-color: #959595;
+    text-align: center;
+    color: black;
+}
+
+.addform {
+    background-color: #6050BF;
+  }
+
+.submitformcss{
+    background-color: #6050BF;
+    display: flex;
+    margin: 80px 200px;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    width: 30%;
+    border-radius: 10%;
+    height: 90vh;
+    margin-top: 50px;
+}
+
+.submitformcss .form-control {
+    width: 110%;
+  }
+
+#addButton{
+    background-color: #FFACAC;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1rem;
+    width: 100px;
+}
+.nav-link.active{
+    font-size: 3rem;
+
+}
+/*css for centerprofile*/
+
+.cards-container{
+    background-color: black;
+    color: white;
+    border-radius: 0%;
+}
+.showdetails{
+    background-color: black;
+}
+.updateform{
+    background-color: #959595;
+}
+#updateButton{
+  margin-top: 10px;
+  align-items: center;
+  display: flex;
+  margin-left: 10px; /* Adjust this value as needed */
+  border-radius: 20%;
+  background-color: #FFACAC;
+  color: black;
+}
+.formcss{
+    background-color: #6050BF;
+    display: flex;
+    margin: 30px 200px;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    width: 40%;
+    border-radius: 10%;
+    height: 90vh;
+    margin-top: 50px;
+}
+.heading{
+    text-align: center;
+    color: black;
+}
+
+#editCenter{
+        padding: 1px 15px;
+        background: black;
+        color: white;
+        border: none;
+        cursor: pointer;
+        text-align: left;
+        display: flex;
+        justify-content: left;
+        text-decoration: none;
+        width: fit-content;
+        margin: 10 auto;
+        
+}
+#deleteCenter{
+        padding: 1px 15px;
+        background: black;
+        color: white;
+        border: none;
+        cursor: pointer;
+        text-align: left;
+        display: flex;
+        justify-content: left;
+        text-decoration: none;
+        width: fit-content;
+        margin: 10 auto;
+}

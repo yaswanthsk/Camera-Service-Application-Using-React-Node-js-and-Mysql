@@ -1,0 +1,77 @@
+.review-page {
+    text-align: center;
+    background-color: #f7f7f7;
+    padding: 20px;
+  }
+  
+  .review-page h1 {
+    margin-top: 20px;
+    font-size: 28px;
+    color: #333;
+  }
+  
+  .review-page form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .review-page label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .review-page select,
+  .review-page textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .review-page select:hover,
+  .review-page textarea:hover {
+    border-color: #2196f3;
+    box-shadow: 0 0 5px rgba(33, 150, 243, 0.5);
+  }
+  
+  .review-page textarea {
+    height: 150px;
+    resize: vertical;
+  }
+  
+  .review-page .star-symbol::after {
+    content: '*';
+    color: red;
+  }
+  
+  .review-page textarea::placeholder {
+    color: #888;
+    font-style: italic;
+  }
+  
+  .review-page button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #2196f3;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .star-rating {
+    font-size: 24px;
+    color: #aaa;
+  }
+  
+  .star {
+    cursor: pointer;
+  }
+  
+  .star.active {
+    color: #f8ce0b;
+  }
