@@ -1,0 +1,35 @@
+pipeline:
+  identifier: Build_Camera_Service_Application_Using_React_Node_js_and_Mysql_1743672450548
+  name: Build Camera-Service-Application-Using-React-Node-js-and-Mysql
+  orgIdentifier: default
+  projectIdentifier: default_project
+  properties:
+    ci:
+      codebase:
+        build: <+input>
+        connectorRef: YaswanthGitHub
+        repoName: Camera-Service-Application-Using-React-Node-js-and-Mysql
+  stages:
+    - stage:
+        identifier: build
+        name: build
+        spec:
+          caching:
+            enabled: true
+          cloneCodebase: true
+          execution:
+            steps:
+              - step:
+                  identifier: echo
+                  name: echo
+                  spec:
+                    command: echo hello world
+                  timeout: ""
+                  type: Run
+          platform:
+            arch: Amd64
+            os: Linux
+          runtime:
+            spec: {}
+            type: Cloud
+        type: CI
