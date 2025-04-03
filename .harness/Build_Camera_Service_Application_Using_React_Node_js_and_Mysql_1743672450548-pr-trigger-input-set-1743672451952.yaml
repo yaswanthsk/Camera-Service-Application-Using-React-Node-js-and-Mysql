@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Camera_Service_Application_Using_React_Node_js_and_Mysql_1743672450548-pr-trigger-input-set
+  identifier: Build_Camera_Service_Application_Using_React_Node_js_and_Mysql_1743672450548prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_Camera_Service_Application_Using_React_Node_js_and_Mysql_1743672450548
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
