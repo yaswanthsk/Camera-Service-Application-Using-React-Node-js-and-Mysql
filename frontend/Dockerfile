@@ -3,8 +3,9 @@ FROM node:18-alpine AS build
 
 WORKDIR /app
 
-COPY package*.json ./
-COPY . .
+# Copy only the frontend files
+COPY frontend/package*.json ./
+COPY frontend/ ./
 
 RUN npm install
 RUN npm run build
